@@ -11,11 +11,8 @@
 // As you develop your application you will probably want to override this.
 // See comments for some pointers on what to do next.
 //
-TodosThree.main = function main() {
-  var statechart = TodosThree.statechart;
-
-  SC.RootResponder.responder.set('defaultResponder', statechart);
-  statechart.initStatechart();
+TodosThree.main = function () {
+  TodosThree.statechart.initStatechart();
 };
 
 
